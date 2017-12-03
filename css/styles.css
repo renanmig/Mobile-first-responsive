@@ -1,0 +1,308 @@
+html,
+body {
+    height: 100%;
+    position: center;
+}
+
+header {
+    background-image: url(../img/nails-header-mobile.jpg);
+	background-size: cover;
+	background-position: top center;
+    height: 50%;
+}
+
+@media(min-width: 468px) {
+	header {
+        background-image: url(../img/nails-header.jpg);
+        height: 75%;
+	}
+}
+
+.shop-carousel{
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-position: center;
+    position: center;   
+}
+
+.grid{
+    float: left;
+    max-width: 33%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.row{
+    position: relative;
+    background-size: cover;
+    background-position: top center;
+    display: inline-block; 
+    margin-left: 15%;
+    margin-right: 15%; 
+    
+}
+
+.img-intro{
+    background-image: url(../img/intro-bg.jpg);
+    background-size: cover;
+	background-position: top center;
+    height: 50%;
+}
+
+.img-promotion-1{
+    float: left;
+    width: 50%;
+    position: relative;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+.img-promotion-2{
+    float: left;
+    width: 50%;
+    position: relative;
+    padding-right: 10%;
+    padding-top: 12%;
+}
+
+.img-bg-first-section-1{
+    background-image: url(../img/bg-first-section.jpg);
+    background-size: cover;
+	background-position: top center;
+    height: 100%;
+}
+
+.img-bg-first-section-2{
+    background-image: url(../img/bg-first-section.jpg);
+    background-size: cover;
+	background-position: top center;
+    height: 100%;
+}
+
+.img-final{
+    background-image: url(../img/bg-final.jpg);
+    background-size: cover;
+	background-position: bottom center;
+    height: 100%;
+}
+
+.img-magazine{
+    float: left;
+    width: 110%;
+    position: relative;
+    margin-top: -60%;
+}
+
+.text{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.text-intro{
+    color: black;
+    background-position: top;
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 50px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.text-promotion{
+    position: relative;
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    padding-right: 5%;
+    padding-left: 10%;
+    padding-top: 12%;
+    color: white;
+    font-size: 10px;
+}
+
+.text-final{
+    padding-top: 24%;
+    text-align: center;
+}
+
+.center {
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    text-align: center;
+    } 
+
+.expand{
+    margin-bottom: 20%;
+}
+
+.expand2{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.carousel-adjust{
+    padding-left: 10%;
+}
+
+.title{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.title-adjust{
+    text-align: center;
+    padding-top: 10%;
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media(min-width: 959px) {
+    .title{
+        font-size: 26px;
+    }
+    .text,
+    .text-intro{
+        font-size: 24px;
+    }
+    .text-promotion{
+        font-size: 22px;
+    }
+    .img-intro{
+        width: 110%;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media(min-width: 768px) and (max-width: 959px) {
+    .title{
+        font-size: 24px;
+    }
+    .text,
+    .text-intro{
+        font-size: 22px;
+    }
+    .text-promotion{
+        font-size: 20px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media(max-width: 767px) {
+    .title{
+        font-size: 18px;
+    }
+    .text,
+    .text-intro{
+        font-size: 16px;
+    }
+    .text-promotion{
+        font-size: 14px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media(min-width: 480px) and (max-width: 767px) {
+    .title{
+        font-size: 16px;
+    }
+    .text,
+    .text-intro{
+        font-size: 14px;
+    }
+    .text-promotion{
+        font-size: 12px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media(max-width: 479px) {
+    .title{
+        font-size: 9px;
+    }
+    .text{
+        font-size: 7px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+    .text-intro{
+        font-size: 7px;
+        padding-top: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .text-promotion{
+        font-size: 7px;
+        margin-top: -5px;
+    }
+    .img-intro{
+        height: 20%;
+    }
+    .img-bg-first-section-1{
+        height: 40%;
+    }
+    .img-bg-first-section-2{
+        height: 30%;
+    }
+    .img-promotion-1{
+        padding-right: 5%;
+        padding-top: 12%;
+    }
+    .img-promotion-2{
+        padding-right: 5%;
+        padding-top: 25%;
+    }
+    .img-final{
+        height: 30%;
+    }
+    .img-icon{
+        width: 70%;
+    }
+    .text-final{
+        padding-top: 20%;
+    }
+    .carousel-adjust{
+        padding-left: 0%;
+    }
+    .expand{
+        margin-bottom: 30%;
+    }
+    .title-adjust{
+        text-align: left;
+        padding-top: 10%;
+    }
+
+}
+
+@media(max-width: 320px) {
+    .img-bg-first-section-1{
+        height: 50%;
+    }
+    .img-bg-first-section-2{
+        height: 40%;
+    }
+    .img-promotion-1{
+        padding-right: 5%;
+        padding-top: 15%;
+    }
+    .img-promotion-2{
+        padding-right: 5%;
+        padding-top: 25%;
+    }
+    .text-final{
+        padding-top: 15%;
+    }
+    .title-adjust{
+        text-align: center;
+        padding-top: 10%;
+    }
+
+}
